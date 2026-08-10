@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>小工具箱 · 我的软件小工具集</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== 顶部导航（所有页面同步） ===== -->
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="logo">小工具<span>箱</span></a>
+      <ul>
+        <li><a href="index.html" class="active">首页</a></li>
+        <li><a href="index.html#tools">全部工具</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== 工具卡片：分 3 段，每段 3 个 ===== -->
+  <section class="tools-section container" id="tools">
+
+    <!-- 第 1 段 -->
+    <div class="subsection">
+      <h2 class="cat-title">文件与图像工具</h2>
+      <div class="grid">
+        <a class="card" href="pages/tool-1.html">
+          <img class="thumb" src="pages/tool-1.svg" alt="文件批量重命名器" />
+          <div class="body">
+            <h3>文件批量重命名器</h3>
+            <p>支持正则、序号、时间戳等多种规则，一键批量整理杂乱文件。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+        <a class="card" href="pages/tool-2.html">
+          <img class="thumb" src="pages/tool-2.svg" alt="智能图片压缩器" />
+          <div class="body">
+            <h3>智能图片压缩器</h3>
+            <p>本地无损/有损压缩，体积最高缩减 80%，画质几乎无损。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+        <a class="card" href="pages/tool-3.html">
+          <img class="thumb" src="pages/tool-3.svg" alt="快捷截图工具" />
+          <div class="body">
+            <h3>快捷截图工具</h3>
+            <p>区域、窗口、全屏截图，自带标注与长截图拼接功能。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- 第 2 段 -->
+    <div class="subsection">
+      <h2 class="cat-title">效率与开发工具</h2>
+      <div class="grid">
+        <a class="card" href="pages/tool-4.html">
+          <img class="thumb" src="pages/tool-4.svg" alt="文本对比器" />
+          <div class="body">
+            <h3>文本对比器</h3>
+            <p>逐行高亮差异，支持大文件，快速找出两版文档的改动。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+        <a class="card" href="pages/tool-5.html">
+          <img class="thumb" src="pages/tool-5.svg" alt="安全密码生成器" />
+          <div class="body">
+            <h3>安全密码生成器</h3>
+            <p>可定制长度与字符集，本地生成高强度密码，不上传不联网。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+        <a class="card" href="pages/tool-9.html">
+          <img class="thumb" src="pages/tool-9.svg" alt="剪贴板管理器" />
+          <div class="body">
+            <h3>剪贴板管理器</h3>
+            <p>自动记录复制历史，快捷检索粘贴，告别重复复制烦恼。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+        <a class="card" href="pages/tool-10.html">
+          <img class="thumb" src="pages/tool-10.svg" alt="JSON 格式化工具" />
+          <div class="body">
+            <h3>JSON 格式化工具</h3>
+            <p>粘贴即美化/压缩/校验 JSON，支持层级折叠与错误定位。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- 第 3 段 -->
+    <div class="subsection">
+      <h2 class="cat-title">系统与网络工具</h2>
+      <div class="grid">
+        <a class="card" href="pages/tool-6.html">
+          <img class="thumb" src="pages/tool-6.svg" alt="二维码生成器" />
+          <div class="body">
+            <h3>二维码生成器</h3>
+            <p>文字、网址、名片一键转二维码，可选尺寸与容错级别。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+        <a class="card" href="pages/tool-7.html">
+          <img class="thumb" src="pages/tool-7.svg" alt="定时关机助手" />
+          <div class="body">
+            <h3>定时关机助手</h3>
+            <p>设定倒计时或指定时刻自动关机、休眠、重启，轻量无残留。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+        <a class="card" href="pages/tool-8.html">
+          <img class="thumb" src="pages/tool-8.svg" alt="网络测速工具" />
+          <div class="body">
+            <h3>网络测速工具</h3>
+            <p>测带宽、延迟与抖动，历史记录图表直观展示网络波动。</p>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="site-footer">
+    © 2026 小工具箱 · 由我个人开发并维护
+  </footer>
+
+  <!-- ===== 展示更多：每段超过 3 个时自动折叠并显示按钮 ===== -->
+  <script>
+    document.querySelectorAll('.subsection').forEach(function (sec) {
+      var grid = sec.querySelector('.grid');
+      if (!grid) return;
+      var cards = grid.querySelectorAll('.card');
+      var LIMIT = 3;
+      if (cards.length <= LIMIT) return;
+
+      // 收起第 4 个及以后的卡片
+      for (var i = LIMIT; i < cards.length; i++) {
+        cards[i].classList.add('is-hidden');
+      }
+
+      // 生成按钮
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'show-more';
+      btn.textContent = '展示更多 ↓';
+      sec.appendChild(btn);
+
+      btn.addEventListener('click', function () {
+        var hidden = grid.querySelectorAll('.card.is-hidden');
+        if (hidden.length > 0) {
+          hidden.forEach(function (c) { c.classList.remove('is-hidden'); });
+          btn.textContent = '收起 ↑';
+        } else {
+          for (var i = LIMIT; i < cards.length; i++) {
+            cards[i].classList.add('is-hidden');
+          }
+          btn.textContent = '展示更多 ↓';
+        }
+      });
+    });
+  </script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
