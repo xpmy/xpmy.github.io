@@ -286,17 +286,11 @@ html.dark .card {
 
 .card .body h3 {
   font-size: 18px;
-  margin-bottom: 8px;
-}
-
-.card .body p {
-  font-size: 14px;
-  color: var(--text-soft);
-  flex: 1;
+  margin-bottom: 0;
 }
 
 .card .more {
-  margin-top: 14px;
+  margin-top: 0;
   align-self: flex-start;
   font-size: 14px;
   font-weight: 600;

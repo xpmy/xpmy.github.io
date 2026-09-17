@@ -61,4 +61,10 @@
   top.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  /* 4. 所有链接都在新标签页打开 */
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    a.setAttribute('target', '_blank');
+    a.setAttribute('rel', 'noopener');
+  });
 })();
