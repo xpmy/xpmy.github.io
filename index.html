@@ -50,9 +50,28 @@
             <span class="more">查看详情</span>
           </div>
         </a>
+		<a class="card" href="pages/tool-8.html">
+          <img class="thumb" src="images/tool-8.jpg" alt="1655原版引擎" />
+          <div class="body">
+            <h3>1655原版引擎</h3>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+		<a class="card" href="pages/tool-9.html">
+          <img class="thumb" src="images/tool-9.jpg" alt="1655引擎授权器" />
+          <div class="body">
+            <h3>1655引擎授权器</h3>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
+		<a class="card" href="pages/tool-10.html">
+          <img class="thumb" src="images/tool-10.jpg" alt="老端引擎合集" />
+          <div class="body">
+            <h3>老端引擎合集[139/178...]</h3>
+            <span class="more">查看详情</span>
+          </div>
+        </a>
       </div>
-    </div>
-  
      <!-- 第 2 段  -->
     <div class="subsection">
       <h2 class="cat-title">GM开发工具</h2>
@@ -93,21 +112,21 @@
       <h2 class="cat-title">系统与网络工具</h2>
       <div class="grid">
         <a class="card" href="pages/tool-6.html">
-          <img class="thumb" src="images/tool-6.svg" alt="二维码生成器" />
+          <img class="thumb" src="images/tool-6.jpg" alt="1655原版引擎" />
           <div class="body">
-            <h3>二维码生成器</h3>
+            <h3>1655原版引擎</h3>
             <span class="more">查看详情</span>
           </div>
         </a>
         <a class="card" href="pages/tool-7.html">
-          <img class="thumb" src="images/tool-7.svg" alt="定时关机助手" />
+          <img class="thumb" src="images/tool-7.jpg" alt="1655引擎授权器" />
           <div class="body">
-            <h3>定时关机助手</h3>
+            <h3>1655引擎授权器</h3>
             <span class="more">查看详情</span>
           </div>
         </a>
         <a class="card" href="pages/tool-8.html">
-          <img class="thumb" src="images/tool-8.svg" alt="网络测速工具" />
+          <img class="thumb" src="images/tool-8.jpg" alt="网络测速工具" />
           <div class="body">
             <h3>网络测速工具</h3>
             <span class="more">查看详情</span>
@@ -123,42 +142,6 @@
     © 单机魔域工具库 · 轻度维护更新
   </footer>
 
-  <!-- ===== 展示更多：每段超过 3 个时自动折叠并显示按钮 ===== -->
-  <script>
-    document.querySelectorAll('.subsection').forEach(function (sec) {
-      var grid = sec.querySelector('.grid');
-      if (!grid) return;
-      var cards = grid.querySelectorAll('.card');
-      var LIMIT = 3;
-      if (cards.length <= LIMIT) return;
-
-      // 收起第 4 个及以后的卡片
-      for (var i = LIMIT; i < cards.length; i++) {
-        cards[i].classList.add('is-hidden');
-      }
-
-      // 生成按钮
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'show-more';
-      btn.textContent = '展示更多 ↓';
-      sec.appendChild(btn);
-
-      btn.addEventListener('click', function () {
-        var hidden = grid.querySelectorAll('.card.is-hidden');
-        if (hidden.length > 0) {
-          hidden.forEach(function (c) { c.classList.remove('is-hidden'); });
-          btn.textContent = '收起 ↑';
-        } else {
-          for (var i = LIMIT; i < cards.length; i++) {
-            cards[i].classList.add('is-hidden');
-          }
-          btn.textContent = '展示更多 ↓';
-        }
-      });
-    });
-  </script>
-
-  <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
