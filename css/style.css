@@ -262,27 +262,13 @@ html.dark .card {
 
 .card .body h3 {
   font-size: 18px;
-  margin-bottom: 0;
-}
-
-.card .more {
-  margin-top: 0;
-  align-self: flex-start;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--brand);
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.card .more::after {
-  content: "→";
-  transition: transform 0.2s;
-}
-
-.card:hover .more::after {
-  transform: translateX(4px);
+  color: #2563eb;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
 }
 
 /* ===== 二级页：文章 ===== */
